@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate.ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/testSpring
+    username: root
+    password: 123qwe
+    driver-class-name: com.mysql.cj.jdbc.Driver
